@@ -41,7 +41,4 @@ background: -moz-linear-gradient(top, #FF0000 0%, #FF0000 16.5%, #FF9900 16.5%, 
 .html5-progress-list, .ytp-progress-list, .video-ads .html5-progress-list.html5-ad-progress-list, .video-ads .ytp-progress-list.ytp-ad-progress-list {
    height: 12px !important;
 }
-.ytp-volume-slider-track {
-   background: #0C4177 !important;
-}
 }

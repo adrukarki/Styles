@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           YouTube - Nyan Cat progress bar video player theme
 @namespace      adrukarki
-@version        0.4
+@version        0.5
 @author         Nexil
 @description    YouTube - Nyan Cat progress bar. Just it.
 @updateURL      https://github.com/adrukarki/Styles/raw/master/YouTube-Nyan-Cat/YouTubeNyanCat.user.css
@@ -27,6 +27,7 @@ background: -moz-linear-gradient(top, #FF0000 0%, #FF0000 16.5%, #FF9900 16.5%, 
    border: none !important;
    margin-left: -18px !important;
    margin-top: 0px !important;
+   /*[[show_nyan]]*/
 }
 .ytp-progress-bar-container:hover .ytp-scrubber-button,
 .ytp-progress-bar-container:hover .ytp-load-progress{
@@ -40,5 +41,8 @@ background: -moz-linear-gradient(top, #FF0000 0%, #FF0000 16.5%, #FF9900 16.5%, 
 }
 .html5-progress-list, .ytp-progress-list, .video-ads .html5-progress-list.html5-ad-progress-list, .video-ads .ytp-progress-list.ytp-ad-progress-list {
    height: 12px !important;
+}
+.ytp-volume-slider-track {
+   background: #0C4177 !important;
 }
 }
